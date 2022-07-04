@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 200px;
+}
+
+h1, button{
+    text-transform: uppercase;
+    color: darkblue;
+}
+
+.title{
+    font-size: 40px;
+}
+
+button{
+    color: white;
+    border-radius: 12px;
+}
+
+button:hover{
+    width: 200px;
+    border-color: brown;
+}
